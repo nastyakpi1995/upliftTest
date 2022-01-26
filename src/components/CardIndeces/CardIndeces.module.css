@@ -1,0 +1,78 @@
+.cardBox  {
+    background: #FFFFFF;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.25), 0 0 5px rgba(0, 0, 0, 0.03);
+    border-radius: 10px;
+    width: 287px;
+    height: 133px;
+    margin-right: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+.title {
+    width: 100%;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 112.4%;
+    letter-spacing: -0.02em;
+
+    color: #000000;
+    padding: 40px 0 15px 0;
+}
+.name {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 112.4%;
+    margin-bottom: 10px;
+
+    letter-spacing: -0.02em;
+
+    color: #000000;
+}
+
+.price {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 112.4%;
+
+    letter-spacing: -0.02em;
+
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.total {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 130%;
+    color: #000000;
+}
+.success {
+    color: #03CEA4;
+}
+.percentageChange {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 112.4%;
+    text-align: right;
+    letter-spacing: -0.02em;
+    color: #c22f49;
+}
+.mines {
+    color: #c22f49;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}
